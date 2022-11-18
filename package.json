@@ -1,0 +1,94 @@
+{
+  "name": "dev-themes",
+  "displayName": "dev-themes",
+  "description": "beautiful themes for development",
+  "publisher": "dev-themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.67.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icons/file_type_markup@2x.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "dev-black-bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Black-color-theme.json"
+      },
+      {
+        "label": "dev-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Dark-color-theme.json"
+      },
+      {
+        "label": "dev-reversal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Reversal-color-theme.json"
+      },
+      {
+        "label": "dev-espresso",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Espresso-color-theme.json"
+      },
+      {
+        "label": "dev-bordo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Bordo-color-theme.json"
+      },
+      {
+        "label": "dev-darkHardGrub",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-DarkHard-color-theme.json"
+      },
+      {
+        "label": "dev-darkMediumGrub",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-DarkMedium-color-theme.json"
+      },
+      {
+        "label": "dev-Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Mirage-color-theme.json"
+      },
+      {
+        "label": "dev-Hacker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Hacker-color-theme.tmTheme"
+      },
+      {
+        "label": "dev-Tyrian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Tyrian-color-theme.tmTheme"
+      },
+      {
+        "label": "dev-FutureFunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-FutureFunk-color-theme.tmTheme"
+      },
+      {
+        "label": "dev-Coffee",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-Coffee-color-theme.json"
+      },
+      {
+        "label": "dev-VimDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dev-VimDark-color-theme.json"
+      },
+
+      {
+        "label": "dev-LightSoft",
+        "uiTheme": "vs",
+        "path": "./themes/Dev-LightSoft-color-theme.json"
+      },
+      {
+        "label": "dev-lightLux",
+        "uiTheme": "vs",
+        "path": "./themes/Dev-LightLux-color-theme.json"
+      }
+    ]
+  }
+}
