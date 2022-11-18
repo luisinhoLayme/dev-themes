@@ -8,6 +8,21 @@
 ### For more information
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Usage
+* clone this repository
+* install vsce
+```
+npm install -g vsce
+```
+* run
+```
+$ cd <cloned repository>
+$ vsce package
+```
+* install to vscode
+```
+$ code --install-extension dev-themes-0.0.1.vsix
+```
 
 # Fonts
 * Dank Mono
